@@ -37,7 +37,6 @@ const nextSlide = () => {
   if(currentImg.nextElementSibling && currentImg.nextElementSibling.classList.contains('carousel__photo')) {
     currentImg.nextElementSibling.classList.add('active')
     contentActive.nextElementSibling.classList.add('content-active')
-    console.log(`nfiweo`)
   } else {
     img[0].classList.add('active');
     content[0].classList.add('content-active')
@@ -54,7 +53,6 @@ const prevSlide = () => {
   if(currentImg.previousElementSibling && currentImg.previousElementSibling.classList.contains('carousel__photo')) {
     currentImg.previousElementSibling.classList.add('active')
     contentActive.previousElementSibling.classList.add('content-active')
-    console.log(`ndmreko`)
   } else {
     img[img.length - 1].classList.add('active');
     content[content.length - 1].classList.add('content-active')
